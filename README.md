@@ -1,20 +1,24 @@
 # Docker & Portainer Setup 🐳🚀
 
-This repository provides an automated setup for Docker, Portainer, and various container configurations. 
-The setup script installs Docker, Portainer, and configures containers with persistent storage.
+This repository provides an automated setup for Docker, Portainer, and the option to deploy various Docker containers interactively. Use the scripts here to streamline your Docker environment setup and container management.
 
 ## 📝 Repository Structure
 
-- **setup/**: Contains the main script for setting up Docker and Portainer.
-- **docker_containers/**: Contains individual scripts to pull and run different Docker containers.
+- **`setup/setup_docker_portainer.sh`**: Installs Docker, sets up Portainer, and configures a persistent storage volume for Portainer.
+- **`docker_containers.sh`**: A single interactive script allowing you to choose and run specific Docker containers.
 
+### Available Containers
+In `docker_containers.sh`, you can choose from the following containers:
+
+- **Debian**: A stable and versatile Linux distribution often used as a base image.
+- **Parrot Security**: A security-focused distribution with tools for ethical hacking and penetration testing.
+- **Kali Rolling**: A rolling release of Kali Linux, known for its penetration testing and security auditing tools.
+- **Alpine**: A lightweight Linux distribution ideal for minimal setups and small Docker images.
+  
 ## 🚀 Getting Started
 
-1. Clone the repository:
-   ```bash
-   git clone https://github.com/yourusername/docker-portainer-setup.git
-   cd docker-portainer-setup
+### 1. Clone the Repository
 
-2. Run the main setup script to install Docker and Portainer:
-
-  sudo bash setup/setup_docker_portainer.sh
+```bash
+git clone https://github.com/yourusername/docker-portainer-setup.git
+cd docker-portainer-setup
