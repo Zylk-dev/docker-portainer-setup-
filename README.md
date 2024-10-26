@@ -14,6 +14,7 @@ The setup script installs Docker, Portainer, and configures containers with pers
    ```bash
    git clone https://github.com/yourusername/docker-portainer-setup.git
    cd docker-portainer-setup
-   Run the main setup script to install Docker and Portainer:
 
-2. sudo bash setup/setup_docker_portainer.sh
+2. Run the main setup script to install Docker and Portainer:
+
+  sudo bash setup/setup_docker_portainer.sh
