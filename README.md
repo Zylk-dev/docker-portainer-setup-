@@ -1,13 +1,15 @@
-docker-portainer-setup/
-├── README.md
-├── setup/
-│   └── setup_docker_portainer.sh
-└── docker_containers/
-    ├── run_debian.sh
-    ├── run_parrot.sh
-    ├── run_alpine1.sh
-    └── run_alpine2.sh
+#Structure 
 
+- `docker-portainer-setup/`
+  - `README.md`
+  - `setup/`
+    - `setup_docker_portainer.sh`
+  - `docker_containers/`
+    - `run_debian.sh`
+    - `run_parrot.sh`
+    - `run_alpine1.sh`
+    - `run_alpine2.sh`
+      
 # Docker & Portainer Setup 🐳🚀
 
 This repository provides an automated setup for Docker, Portainer, and various container configurations. The setup script installs Docker, Portainer, and configures containers with persistent storage.
