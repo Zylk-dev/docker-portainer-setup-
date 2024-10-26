@@ -3,8 +3,8 @@
 echo "Choose a Docker container to set up:"
 echo "1) Debian"
 echo "2) Parrot Security"
-echo "3) Alpine (Instance 1)"
-echo "4) Alpine (Instance 2)"
+echo "3) Kali Rolling"
+echo "4) Alpine"
 echo "5) Exit"
 
 read -p "Enter the number of your choice: " choice
@@ -21,14 +21,14 @@ case $choice in
     sudo docker run -it --name parrot-env parrotsec/core
     ;;
   3)
-    echo "⛰️ Pulling and running Alpine container 1..."
-    sudo docker pull alpine:latest
-    sudo docker run -it --name alpine-lite1 alpine:latest
+    echo "🐉 Pulling and running Kali Rolling container..."
+    sudo docker pull kalilinux/kali-rolling
+    sudo docker run -it --name kali-rolling kalilinux/kali-rolling
     ;;
   4)
-    echo "⛰️ Pulling and running Alpine container 2..."
+    echo "⛰️ Pulling and running Alpine container..."
     sudo docker pull alpine:latest
-    sudo docker run -it --name alpine-lite2 alpine:latest
+    sudo docker run -it --name alpine alpine:latest
     ;;
   5)
     echo "Exiting setup."
@@ -39,3 +39,11 @@ case $choice in
     exit 1
     ;;
 esac
+
+#Make the script executable (if not already done):
+#bash
+#chmod +x docker_containers.sh
+
+#Execute the script:
+#bash
+#sudo bash docker_containers.sh
