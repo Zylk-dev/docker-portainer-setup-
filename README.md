@@ -1,16 +1,3 @@
-How to Run the Script
-Save the script to a file, such as docker_containers.sh.
-
-Make the script executable:
-
-chmod +x docker_containers.sh
-
-Run the script:
-
-sudo bash docker_containers.sh
-
-This will sequentially pull and run each container listed in the script.
-      
 # Docker & Portainer Setup 🐳🚀
 
 This repository provides an automated setup for Docker, Portainer, and various container configurations. 
