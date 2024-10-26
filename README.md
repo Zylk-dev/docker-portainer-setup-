@@ -1,13 +1,15 @@
-# Structure 
-- `docker-portainer-setup/`
-  - `README.md`
-  - `setup/`
-    - `setup_docker_portainer.sh`
-  - `docker_containers/`
-    - `run_debian.sh`
-    - `run_parrot.sh`
-    - `run_alpine1.sh`
-    - `run_alpine2.sh`
+How to Run the Script
+Save the script to a file, such as docker_containers.sh.
+
+Make the script executable:
+
+chmod +x docker_containers.sh
+
+Run the script:
+
+sudo bash docker_containers.sh
+
+This will sequentially pull and run each container listed in the script.
       
 # Docker & Portainer Setup 🐳🚀
 
