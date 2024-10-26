@@ -1,4 +1,4 @@
-# Docker & Portainer Setup 🐳🚀
+# Docker & Portainer Setup 🐳🚀 #Tested on Debian
 
 This repository provides an automated setup for Docker, Portainer, and the option to deploy various Docker containers interactively. Use the scripts here to streamline your Docker environment setup and container management.
 
