@@ -40,10 +40,6 @@ case $choice in
     ;;
 esac
 
-#Make the script executable (if not already done):
-#bash
-#chmod +x docker_containers.sh
-
-#Execute the script:
-#bash
-#sudo bash docker_containers.sh
+# Instructions to make the script executable and run it:
+# chmod +x docker_containers.sh
+# sudo bash docker_containers.sh
