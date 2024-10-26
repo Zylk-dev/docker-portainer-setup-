@@ -22,3 +22,7 @@ In `docker_containers.sh`, you can choose from the following containers:
 ```bash
 git clone https://github.com/yourusername/docker-portainer-setup.git
 cd docker-portainer-setup
+
+⚙️ Usage Example
+To start Portainer: Navigate to http://localhost:9000 in your browser to manage Docker resources with Portainer.
+To run a container: Follow the prompts in docker_containers.sh to select and run your desired container.
